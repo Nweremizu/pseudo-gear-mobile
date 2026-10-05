@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pseudo Gear",
+    "slug": "pseudo-gear",
+    "scheme": "pseudo-gear",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pseudogear.shop",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#FA501D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-web-browser",
+      ["expo-splash-screen", { "image": "./assets/splash.png", "imageWidth": 200, "resizeMode": "contain", "backgroundColor": "#FCFCFA" }]
+    ]
+  }
+}
